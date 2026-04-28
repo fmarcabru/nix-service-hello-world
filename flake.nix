@@ -33,6 +33,7 @@
                     pkgs.uv
                     pkgs.python312
                     pkgs.pyright
+                    pkgs.nodejs_22
                 ];
             env = {
                 UV_PYTHON = "${pkgs.python312}/bin/python";
