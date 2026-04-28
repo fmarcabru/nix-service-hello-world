@@ -75,5 +75,8 @@
                 UV_PYTHON_DOWNLOADS = "never";
             };
         };
+
+        # to install as a service
+        nixosModules.default = import ./module.nix self;
     };
 }
