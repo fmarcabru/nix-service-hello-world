@@ -1,5 +1,5 @@
 self:
-{ conig, lib, pkgs, ... }:
+{ config, lib, pkgs, ... }:
 let 
     cfg = config.services.fastapi-hello;
 in
